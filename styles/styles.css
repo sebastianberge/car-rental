@@ -1,0 +1,76 @@
+body {
+	background: black;
+	padding: 20px 200px;
+}
+
+.button--login {
+	padding: 9px 10px;
+	color: black;
+	background-color: yellow;
+	border: 1px solid yellow;
+}
+
+.button--login:hover {
+	color: yellow;
+	background-color: black;
+	border: 1px solid yellow;
+}
+
+.logo {
+	color: yellow;
+	font-size: 60px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-style: italic;
+}
+
+.header__list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.header__item {
+	float: left;
+}
+
+.header__item--right {
+	float: right;
+}
+
+.header__link {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.header__link:hover {
+}
+
+.navigation__list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+.navigation__item {
+	float: left;
+}
+
+.navigation__link {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.navigation__link:hover {
+	background-color: yellow;
+	color: black;
+}
