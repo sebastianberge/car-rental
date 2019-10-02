@@ -16,6 +16,12 @@ body {
 	border: 1px solid yellow;
 }
 
+.button--language {
+	color: yellow;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
 .logo {
 	color: yellow;
 	font-size: 60px;
@@ -73,4 +79,19 @@ body {
 .navigation__link:hover {
 	background-color: yellow;
 	color: black;
+}
+
+.information {
+}
+
+.information,
+h2 {
+	color: yellow;
+	font-size: 24px;
+}
+
+.information,
+p {
+	color: white;
+	font-size: 14px;
 }
