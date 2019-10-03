@@ -1,20 +1,30 @@
+.car1 {
+	background: url(../images/bilA.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 180px;
+	margin: 5px;
+	border: 1px solid var(--mainYellow);
+}
+
 div.category {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.category:hover {
-    border: 1px solid #777;
-  }
-  
-  div.category img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+	height: 300px;
+}
+
+div.category:hover {
+	border: 1px solid #777;
+}
+
+div.category img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
