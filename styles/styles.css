@@ -1,3 +1,8 @@
+:root {
+	--mainYellow: #ffd100;
+	--mainBlue: #318dff;
+}
+
 body {
 	background: black;
 	padding: 20px 200px;
@@ -6,24 +11,56 @@ body {
 .button--login {
 	padding: 9px 10px;
 	color: black;
-	background-color: yellow;
-	border: 1px solid yellow;
+	background-color: var(--mainYellow);
+	border: 1px solid var(--mainYellow);
 }
 
 .button--login:hover {
-	color: yellow;
+	color: var(--mainYellow);
 	background-color: black;
-	border: 1px solid yellow;
+	border: 1px solid var(--mainYellow);
 }
 
 .button--language {
-	color: yellow;
+	color: var(--mainYellow);
 	font-size: 12px;
 	text-transform: uppercase;
 }
 
+.button--order-as-member {
+	font-weight: bold;
+	padding: 9px 10px;
+	color: white;
+	background-color: var(--mainBlue);
+	border: 1px solid var(--mainBlue);
+	cursor: pointer;
+}
+
+.button--order-as-member:hover {
+	padding: 9px 10px;
+	color: var(--mainBlue);
+	background-color: white;
+	border: 1px solid var(--mainBlue);
+}
+
+.button--order-as-guest {
+	font-weight: bold;
+	padding: 9px 10px;
+	color: black;
+	background-color: var(--mainYellow);
+	border: 1px solid var(--mainYellow);
+	cursor: pointer;
+}
+
+.button--order-as-guest:hover {
+	padding: 9px 10px;
+	color: var(--mainYellow);
+	background-color: black;
+	border: 1px solid black;
+}
+
 .logo {
-	color: yellow;
+	color: var(--mainYellow);
 	font-size: 60px;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 		"Lucida Sans", Arial, sans-serif;
@@ -77,8 +114,91 @@ body {
 }
 
 .navigation__link:hover {
-	background-color: yellow;
+	background-color: var(--mainYellow);
 	color: black;
+}
+
+.marketing__main {
+	padding: 10px 10px;
+	background-color: blueviolet;
+}
+
+.form__wrapper {
+	padding: 20px;
+}
+
+.forms {
+	background-color: white;
+	z-index: 99;
+	color: black;
+	width: 400px;
+}
+
+.form__navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+.form__item {
+	float: left;
+}
+
+.form__link {
+	display: block;
+	background-color: var(--mainYellow);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.active {
+	background-color: white;
+}
+
+.form__book {
+	display: block;
+}
+
+.form__view {
+}
+
+.input__main {
+	padding: 2px 5px;
+	width: 250px;
+	display: block;
+}
+
+.input__date {
+	padding: 2px 5px;
+	width: 180px;
+	display: inline-block;
+}
+
+.divide {
+	margin: 20px 0;
+	width: 100%;
+	background-color: grey;
+	height: 2px;
+}
+
+.input__time-select {
+	display: inline-block;
+	width: 120px;
+}
+
+.input__car-select {
+	display: inline-block;
+	width: 250px;
+}
+
+.input__grey {
+	padding: 5px 10px;
+	background-color: lightgray;
+	margin-top: 10px;
 }
 
 .information {
@@ -86,7 +206,7 @@ body {
 
 .information,
 h2 {
-	color: yellow;
+	color: var(--mainYellow);
 	font-size: 24px;
 }
 
