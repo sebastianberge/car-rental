@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+	<link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+	<title>Leiebilen - Lei en bil</title>
+</head>
+
+<body>
+	<!-- Header -->
+	<div class="header">
+		<ul class="header__list">
+			<li class="header__item">
+				<a class="header__link logo" href="index.html">Leiebilen<span style="font-size: 10px">®</span></a>
+			</li>
+			<li class="header__item--right">
+				<a class="header__link button--login" href="">Logg inn/Meld deg inn nå</a>
+			</li>
+			<li class="header__item--right">
+				<a class="header__link button--language" href="">NO/NO
+					<hr /></a>
+			</li>
+		</ul>
+	</div>
+	<!-- Navigation Menu Bar -->
+	<div class="navigation">
+		<ul class="navigation__list">
+			<li class="navigation__item">
+				<a class="navigation__link" href="./category.html">Leiebil</a>
+			</li>
+			<li class="navigation__item">
+				<a class="navigation__link" href="./404.html">Varebil</a>
+			</li>
+			<li class="navigation__item">
+				<a class="navigation__link" href="./404.html">Steder</a>
+			</li>
+			<li class="navigation__item">
+				<a class="navigation__link" href="./404.html">Bedriftsavtale</a>
+			</li>
+			<li class="navigation__item">
+				<a class="navigation__link" href="./404.html">Spesialtilbud</a>
+			</li>
+			<li class="navigation__item">
+				<a class="navigation__link" href="./404.html">Produkter</a>
+			</li>
+			<li class="navigation__item">
+				<a class="navigation__link" href="./404.html">Hjelp</a>
+			</li>
+			<li class="navigation__item">
+				<a class="navigation__link" href="./404.html">Gold Plus Rewards</a>
+			</li>
+		</ul>
+	</div>
+		<!-- Booking Section -->
+		<!-- Skjemaet skal være todelt - Enten bestille en bil, eller logge inn på eksisterende booking (tenker to skjemaer) -->
+		<section>
+			<div class="marketing__main">
+				<form class="forms">
+					<ul class="form__navigation">
+						<li class="form__item">
+							<a class="form__link active">
+								Bestill en bil
+							</a>
+						</li>
+						<li class="form__item">
+							<a class="form__link">
+								Vis/endre/avbestill
+							</a>
+						</li>
+					</ul>
+					<div class="form__wrapper">
+						<form class="form__book">
+							<label for="location"
+								><b>Sted eller flyplasskode</b> (by, land eller
+								flyplasskode)</label
+							>
+							<input class="input__main" type="text" name="location" />
+							<a href="">Finn lokasjon</a>
+							<br/>
+							<input type="checkbox" value="otherLocation" /> Jeg skal levere
+							kjøretøyet til en annen lokasjon <br />
+							<label for="pickup"><b>Hentes:</b></label
+							><br />
+							<input class="input__date" type="text" name="pickup" />
+							<select class="input__time-select">
+								<option value="12:00">12:00</option>
+								<option value="12:30">12:30</option>
+							</select>
+							<br />
+							<label for="delivery"><b>Leveres:</b></label>
+							<br />
+							<input class="input__date" type="text" name="delivery" />
+							<select class="input__time-select">
+								<option value="12:00">12:00</option>
+								<option value="12:30">12:30</option>
+							</select>
+							<div class="divide"></div>
+							<label for="cartype"><b>Biltype:</b></label>
+							<br />
+							<select class="input__car-select">
+								<option value="all">Vis alle</option>
+								<option value="compact">Kompakt</option>
+								<option value="suv">SUV</option>
+								<option value="economy">Økonomi</option>
+							</select>
+							<div class="input__grey">
+								<input type="checkbox" value="useReward" /> Bruk mine
+								Rewardspoeng
+							</div>
+							<div class="input__grey">
+								<input type="checkbox" value="discount" /> Jeg har rabatt (CDP,
+								PC, kupong eller annen kode -)
+							</div>
+							<button type="submit" class="button--order-as-member">Bestill som medlem</button>
+							<button type="submit" class="button--order-as-guest">Bestill som gjest</button>
+						</form>
+					</div>
+					<form class="form__view"></form>
+				</div>
+			</div>
+			<div class="marketing__gold"></div>
+			<div class="marketing__vans"></div>
+			<div class="marketing__info"></div>
+		</section>
+		<section id="information">
+			<div class="information__left">
+				<h2>Bilutleie</h2>
+			</div>
+			<div class="information__right">
+				<p>
+					Velkommen til Leiebilen Bilutleie. Lei en bil på nettet fra en av våre
+					verdensomspennende lokasjoner. Med over 90 års erfaring i bil- og
+					varebilutleie kan du dra nytte av vårt store bilutvalg og gjøre din
+					bestilling på nettet med en gang. Med de aller beste tilbud og avtaler
+					på bilutleie, er Leiebilen.no det beste stedet å bestille din leiebil.
+					Start din bestillingsprosess ved å bruke vårt online bestillingssystem
+					ovenfor og sjekk ut våre tilgjengelige tilbud på bil- og varebil!
+				</p>
+			</div>
+		</section>
+	</body>
+</html>
