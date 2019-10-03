@@ -202,6 +202,7 @@ body {
 }
 
 .information {
+
 }
 
 .information,
@@ -214,4 +215,8 @@ h2 {
 p {
 	color: white;
 	font-size: 14px;
+}
+
+h3 {
+	color: white;
 }
