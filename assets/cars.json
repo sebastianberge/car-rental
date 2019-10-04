@@ -1,0 +1,38 @@
+[
+	{
+		"id": "1",
+		"carName": "Volkswagen Polo",
+		"category": "city",
+		"imageUrl": "../images/cars/city_1.png"
+	},
+	{
+		"id": "2",
+		"carName": "Audi S3",
+		"category": "sedan",
+		"imageUrl": "../images/cars/sedan_1.png"
+	},
+	{
+		"id": "3",
+		"carName": "BMW X5 xDrive",
+		"category": "suv",
+		"imageUrl": "../images/cars/suv_1.png"
+	},
+	{
+		"id": "4",
+		"carName": "Audi A7 Sportback",
+		"category": "luxury",
+		"imageUrl": "../images/cars/luxury_1.png"
+	},
+	{
+		"id": "5",
+		"carName": "Volvo V60",
+		"category": "economy",
+		"imageUrl": "../images/cars/economy_1.png"
+	},
+	{
+		"id": "6",
+		"carName": "Ferrari",
+		"category": "sport",
+		"imageUrl": "../images/cars/sport_1.png"
+	}
+]
