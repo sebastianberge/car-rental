@@ -68,6 +68,9 @@ body {
 }
 
 .header__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -75,11 +78,8 @@ body {
 }
 
 .header__item {
-	float: left;
-}
-
-.header__item--right {
-	float: right;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .header__link {
@@ -120,7 +120,11 @@ body {
 
 .marketing__main {
 	padding: 10px 10px;
-	background-color: blueviolet;
+	background-image: url(../images/front-picture.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: -150px;
+	height: 600px;
 }
 
 .form__wrapper {
@@ -201,8 +205,14 @@ body {
 	margin-top: 10px;
 }
 
-.information {
+.information__left {
+	float: left;
+	width: 30%;
+}
 
+.information__right {
+	float: left;
+	width: 70%;
 }
 
 .information,
