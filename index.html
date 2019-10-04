@@ -1,92 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+		<title>Leiebilen - Lei en bil</title>
+	</head>
 
-	<link rel="stylesheet" type="text/css" href="./styles/styles.css" />
-	<title>Leiebilen - Lei en bil</title>
-</head>
-
-<body>
-	<!-- Header -->
-	<div class="header">
-		<ul class="header__list">
-			<li class="header__item">
-				<a class="header__link logo" href="index.html">Leiebilen<span style="font-size: 10px">®</span></a>
-			</li>
-			<li class="header__item">
-				<div>
-					<ul class="header__list">
-						<li class="header__item">
-							<a class="header__link button--language" href="">NO/NO<hr /></a>
-						</li>
-						<li class="header__item">
-							<a class="header__link button--login" href="">Logg inn/Meld deg inn nå</a>
-						</li>
-					</ul>
-				</div>
-			</li>
-			
-		</ul>
-	</div>
-	<!-- Navigation Menu Bar -->
-	<div class="navigation">
-		<ul class="navigation__list">
-			<li class="navigation__item">
-				<a class="navigation__link" href="./category.html">Leiebil</a>
-			</li>
-			<li class="navigation__item">
-				<a class="navigation__link" href="./404.html">Varebil</a>
-			</li>
-			<li class="navigation__item">
-				<a class="navigation__link" href="./404.html">Steder</a>
-			</li>
-			<li class="navigation__item">
-				<a class="navigation__link" href="./404.html">Bedriftsavtale</a>
-			</li>
-			<li class="navigation__item">
-				<a class="navigation__link" href="./404.html">Spesialtilbud</a>
-			</li>
-			<li class="navigation__item">
-				<a class="navigation__link" href="./404.html">Produkter</a>
-			</li>
-			<li class="navigation__item">
-				<a class="navigation__link" href="./404.html">Hjelp</a>
-			</li>
-			<li class="navigation__item">
-				<a class="navigation__link" href="./404.html">Gold Plus Rewards</a>
-			</li>
-		</ul>
-	</div>
+	<body>
+		<!-- Header -->
+		<div class="header">
+			<ul class="header__list">
+				<li class="header__item">
+					<a class="header__link logo" href="index.html"
+						>Leiebilen<span style="font-size: 10px">®</span></a
+					>
+				</li>
+				<li class="header__item">
+					<div>
+						<ul class="header__list">
+							<li class="header__item">
+								<a class="header__link button--language" href=""
+									>NO/NO
+									<hr
+								/></a>
+							</li>
+							<li class="header__item">
+								<a class="header__link button--login" href=""
+									>Logg inn/Meld deg inn nå</a
+								>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- Navigation Menu Bar -->
+		<div class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item">
+					<a class="navigation__link" href="./category.html">Leiebil</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="./404.html">Varebil</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="./404.html">Steder</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="./404.html">Bedriftsavtale</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="./404.html">Spesialtilbud</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="./404.html">Produkter</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="./404.html">Hjelp</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="./404.html">Gold Plus Rewards</a>
+				</li>
+			</ul>
+		</div>
 		<!-- Booking Section -->
 		<!-- Skjemaet skal være todelt - Enten bestille en bil, eller logge inn på eksisterende booking (tenker to skjemaer) -->
 		<section>
 			<div class="marketing__main">
-				<form class="forms">
+				<div class="forms">
 					<ul class="form__navigation">
-						<li class="form__item">
-							<a class="form__link active">
+						<li class="form__item" id="form__item--one">
+							<a class="form__link active" id="form__one">
 								Bestill en bil
 							</a>
 						</li>
-						<li class="form__item">
-							<a class="form__link">
+						<li class="form__item" id="form__item--two">
+							<a class="form__link" id="form__two">
 								Vis/endre/avbestill
 							</a>
 						</li>
 					</ul>
 					<div class="form__wrapper">
-						<form class="form__book">
+						<form id="form__book">
 							<label for="location"
 								><b>Sted eller flyplasskode</b> (by, land eller
 								flyplasskode)</label
 							>
 							<input class="input__main" type="text" name="location" />
 							<a href="">Finn lokasjon</a>
-							<br/>
+							<br />
 							<input type="checkbox" value="otherLocation" /> Jeg skal levere
 							kjøretøyet til en annen lokasjon <br />
 							<label for="pickup"><b>Hentes:</b></label
@@ -121,11 +126,17 @@
 								<input type="checkbox" value="discount" /> Jeg har rabatt (CDP,
 								PC, kupong eller annen kode -)
 							</div>
-							<button type="submit" class="button--order-as-member">Bestill som medlem</button>
-							<button type="submit" class="button--order-as-guest">Bestill som gjest</button>
+							<button type="submit" class="button--order-as-member">
+								Bestill som medlem
+							</button>
+							<button type="submit" class="button--order-as-guest">
+								Bestill som gjest
+							</button>
 						</form>
 					</div>
-					<form class="form__view"></form>
+					<form id="form__view">
+						<h2>HELLO NR 2</h2>
+					</form>
 				</div>
 			</div>
 			<div class="marketing__gold"></div>
@@ -148,5 +159,6 @@
 				</p>
 			</div>
 		</section>
+		<script src="./js/formController.js"></script>
 	</body>
 </html>

@@ -163,11 +163,12 @@ body {
 	background-color: white;
 }
 
-.form__book {
+#form__book {
 	display: block;
 }
 
-.form__view {
+#form__view {
+	display: none;
 }
 
 .input__main {
