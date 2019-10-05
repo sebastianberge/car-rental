@@ -1,0 +1,42 @@
+.cars__heading {
+	text-align: center;
+}
+
+#cars {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-end;
+}
+
+.car {
+	padding: 10px;
+	margin: 10px;
+	width: 35%;
+	display: block;
+	color: var(--mainYellow);
+}
+
+.car__image {
+	float: left;
+	margin-right: 20px;
+}
+
+.car > ul {
+	list-style-type: none;
+}
+
+.button--car {
+	padding: 9px 10px;
+	color: black;
+	background-color: var(--mainYellow);
+	border: 1px solid var(--mainYellow);
+	text-decoration: none;
+}
+
+.button--car:hover {
+	color: var(--mainYellow);
+	background-color: black;
+	border: 1px solid var(--mainYellow);
+}

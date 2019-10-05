@@ -1,11 +1,18 @@
 :root {
 	--mainYellow: #ffd100;
 	--mainBlue: #318dff;
+	--lightGray: #e2e2e2;
 }
 
 body {
 	background: black;
 	padding: 20px 200px;
+}
+
+.divide--yellow {
+	width: 100%;
+	height: 1px;
+	background-color: var(--mainYellow);
 }
 
 .button--login {

@@ -1,38 +1,44 @@
 [
 	{
 		"id": "1",
-		"carName": "Volkswagen Polo",
-		"category": "city",
+		"carName": "Volkswagen Polo eller lignende",
+		"category": "CITY",
+		"info": "",
 		"imageUrl": "../images/cars/city_1.png"
 	},
 	{
 		"id": "2",
-		"carName": "Audi S3",
-		"category": "sedan",
+		"carName": "Audi A4 eller lignende",
+		"category": "SEDAN",
+		"info": "",
 		"imageUrl": "../images/cars/sedan_1.png"
 	},
 	{
 		"id": "3",
-		"carName": "BMW X5 xDrive",
-		"category": "suv",
+		"carName": "BMW X5 eller lignende",
+		"category": "SUV",
+		"info": "",
 		"imageUrl": "../images/cars/suv_1.png"
 	},
 	{
 		"id": "4",
-		"carName": "Audi A7 Sportback",
-		"category": "luxury",
+		"carName": "Audi A7 eller lignende",
+		"category": "LUXURY",
+		"info": "",
 		"imageUrl": "../images/cars/luxury_1.png"
 	},
 	{
 		"id": "5",
-		"carName": "Volvo V60",
-		"category": "economy",
+		"carName": "Volvo V60 eller lignende",
+		"category": "ECONOMY",
+		"info": "",
 		"imageUrl": "../images/cars/economy_1.png"
 	},
 	{
 		"id": "6",
-		"carName": "Ferrari",
-		"category": "sport",
+		"carName": "Ferrari eller lignende",
+		"category": "SPORT",
+		"info": "",
 		"imageUrl": "../images/cars/sport_1.png"
 	}
 ]
