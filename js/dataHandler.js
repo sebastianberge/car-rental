@@ -13,22 +13,31 @@ function loadCars() {
 
 			for (var i in cars) {
 				output +=
-					'<div class="car">' +
+					'<div class="car" onclick="location.href=' +
+					"'./booking.html'" +
+					'">' +
 					'<img class="car__image" src="' +
 					cars[i].imageUrl +
-					'" width="180">' +
+					'" width="200" alt="' +
+					cars[i].alt +
+					'">' +
 					"<ul>" +
-					"<li><b>" +
-					cars[i].carName +
-					"</b></li>" +
-					"<li>Kategori: " +
+					"<li><b>Kategori: " +
 					cars[i].category +
+					"</b></li>" +
+					"<li>" +
+					cars[i].carName +
 					"</li>" +
-					"<li> " +
-					cars[i].info +
+					"<li>Dagspris: " +
+					cars[i].dayPrice +
+					"</li>" +
+					"<li>Ukespris: " +
+					cars[i].weeklyPrice +
+					"</li>" +
+					"<li>Helgepris: " +
+					cars[i].weekendPrice +
 					"</li>" +
 					"</ul>" +
-					'<a href="./booking.html" class="button--car">Velg</a>' +
 					"</div>"
 			}
 			document.getElementById("cars").innerHTML = output

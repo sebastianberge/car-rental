@@ -2,43 +2,56 @@
 	{
 		"id": "1",
 		"carName": "Volkswagen Polo eller lignende",
-		"category": "CITY",
+		"alt": "Small car",
+		"category": "A",
 		"info": "",
+		"dayPrice": "Fra NOK 780,-",
+		"weeklyPrice": "Fra NOK 4500,-",
+		"weekendPrice": "Fra nok 1399,-",
 		"imageUrl": "../images/cars/city_1.png"
 	},
 	{
 		"id": "2",
 		"carName": "Audi A4 eller lignende",
-		"category": "SEDAN",
+		"alt": "Medium car",
+		"category": "B",
 		"info": "",
+		"dayPrice": "Fra NOK 1199,-",
+		"weeklyPrice": "Fra NOK 6800,-",
+		"weekendPrice": "Fra nok 2599,-",
 		"imageUrl": "../images/cars/sedan_1.png"
 	},
 	{
 		"id": "3",
 		"carName": "BMW X5 eller lignende",
-		"category": "SUV",
+		"alt": "SUV car",
+		"category": "C",
 		"info": "",
+		"dayPrice": "Fra NOK 1699,-",
+		"weeklyPrice": "Fra NOK 9000,-",
+		"weekendPrice": "Fra nok 3199,-",
 		"imageUrl": "../images/cars/suv_1.png"
 	},
 	{
 		"id": "4",
 		"carName": "Audi A7 eller lignende",
-		"category": "LUXURY",
+		"alt": "Luxury car",
+		"category": "D",
 		"info": "",
+		"dayPrice": "Fra NOK 2300,-",
+		"weeklyPrice": "Fra NOK 14000,-",
+		"weekendPrice": "Fra nok 4299,-",
 		"imageUrl": "../images/cars/luxury_1.png"
 	},
 	{
 		"id": "5",
-		"carName": "Volvo V60 eller lignende",
-		"category": "ECONOMY",
+		"carName": "Tesla Model X eller lignende",
+		"alt": "Electric car",
+		"category": "Electric",
 		"info": "",
-		"imageUrl": "../images/cars/economy_1.png"
-	},
-	{
-		"id": "6",
-		"carName": "Ferrari eller lignende",
-		"category": "SPORT",
-		"info": "",
-		"imageUrl": "../images/cars/sport_1.png"
+		"dayPrice": "Fra NOK 899,-",
+		"weeklyPrice": "Fra NOK 6199,-",
+		"weekendPrice": "Fra nok 1299,-",
+		"imageUrl": "../images/cars/electric_2.png"
 	}
 ]

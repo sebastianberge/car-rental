@@ -2,6 +2,12 @@
 	text-align: center;
 }
 
+.car--link {
+	text-decoration: none;
+	text-transform: none;
+	display: inline-block;
+}
+
 #cars {
 	display: flex;
 	flex-wrap: wrap;
@@ -13,9 +19,16 @@
 .car {
 	padding: 10px;
 	margin: 10px;
-	width: 35%;
+	width: 45%;
+	min-height: 210px;
 	display: block;
 	color: var(--mainYellow);
+	border: 1px solid var(--mainYellow);
+	cursor: pointer;
+}
+
+.car:hover {
+	background-color: rgba(255, 209, 0, 0.2);
 }
 
 .car__image {
