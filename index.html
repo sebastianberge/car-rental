@@ -124,14 +124,24 @@
 								><strong>Sted eller flyplasskode</strong> (by, land eller
 								flyplasskode)</label
 							>
-							<input class="input__main" type="text" name="location" />
+							<input
+								id="location"
+								class="input__main"
+								type="text"
+								name="location"
+							/>
 							<a href="">Finn lokasjon</a>
 							<br />
 							<input type="checkbox" value="otherLocation" /> Jeg skal levere
 							kjøretøyet til en annen lokasjon <br />
 							<label for="pickup"><strong>Hentes:</strong></label
 							><br />
-							<input class="input__date" type="text" name="pickup" />
+							<input
+								id="pickup"
+								class="input__date"
+								type="text"
+								name="pickup"
+							/>
 							<select class="input__time-select">
 								<option value="12:00">12:00</option>
 								<option value="12:30">12:30</option>
@@ -139,7 +149,12 @@
 							<br />
 							<label for="delivery"><strong>Leveres:</strong></label>
 							<br />
-							<input class="input__date" type="text" name="delivery" />
+							<input
+								id="delivery"
+								class="input__date"
+								type="text"
+								name="delivery"
+							/>
 							<select class="input__time-select">
 								<option value="12:00">12:00</option>
 								<option value="12:30">12:30</option>
@@ -147,7 +162,7 @@
 							<div class="divide"></div>
 							<label for="cartype"><strong>Biltype:</strong></label>
 							<br />
-							<select class="input__car-select">
+							<select id="cartype" class="input__car-select">
 								<option value="all">Vis alle</option>
 								<option value="compact">Kompakt</option>
 								<option value="suv">SUV</option>
@@ -172,19 +187,25 @@
 					<!-- Reservation Form -->
 					<div class="form__wrapper">
 						<form id="form__view">
-							<label for="reservation_number"><b>Reservasjonsnummer*</b></label>
+							<label for="reservation_number"
+								><strong>Reservasjonsnummer*</strong></label
+							>
 							<br />
 							<input
 								class="input__main"
 								type="text"
+								id="reservation_number"
 								name="reservation_number"
 							/>
 							<br />
-							<label for="reservation_lastname"><b>Etternavn*</b></label>
+							<label for="reservation_lastname"
+								><strong>Etternavn*</strong></label
+							>
 							<br />
 							<input
 								class="input__main"
 								type="text"
+								id="reservation_lastname"
 								name="reservation_lastname"
 							/>
 							<div class="divide"></div>
